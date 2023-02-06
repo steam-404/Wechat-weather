@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/myself/myself",
+    "pages/tool/tool",
+    "pages/weather/weather"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "建建的小程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "pages/resources/indexNo.png",
+      "selectedIconPath": "pages/resources/index.png"
+    },{
+      "pagePath": "pages/tool/tool",
+      "text": "小工具",
+      "iconPath": "pages/resources/toolNo.png",
+      "selectedIconPath": "pages/resources/tool.png"
+    },{
+      "pagePath": "pages/myself/myself",
+      "text": "我的",
+      "iconPath": "pages/resources/myselfNo.png",
+      "selectedIconPath": "pages/resources/myself.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

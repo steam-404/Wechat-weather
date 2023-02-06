@@ -1,0 +1,17 @@
+<view>
+  <!--pages/weather/weather.wxml-->
+<text>pages/weather/weather.wxml</text>
+<button bindtap="getWeather" type="primary">获取天气(咸阳)</button>
+<text wx:if="{{weatherMessage.visibility}}=1000">返回数据:正常</text><rich-text nodes="<br>"/>
+<text>国家:{{weatherMessage.sys.country}}</text><rich-text nodes="<br>"/>
+<text>地区:{{weatherMessage.name}}</text><rich-text nodes="<br>"/>
+<text>风速:{{weatherMessage.wind.speed}}m/s</text>
+<rich-text nodes="<br>"/>
+<text>湿度:{{weatherMessage.wind.deg}}%</text>
+<rich-text nodes="<br>"/>
+<text>温度:{{weatherMessage.main.temp}}摄氏度</text>
+<rich-text nodes="<br>"/>
+<text>大气压力:{{weatherMessage.main.pressure}} hPa</text>
+<rich-text nodes="<br>"/>
+<text>能见度:{{weatherMessage.visibility}} m</text>
+</view>

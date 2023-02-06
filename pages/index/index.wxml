@@ -1,0 +1,5 @@
+<view class="default" bindtap="weather">
+<rich-text nodes="<p>天气查询</p>"/>
+<image src="/pages/resources/weather.png" mode=""/>
+<button type="primary">点击进入</button>
+</view>
